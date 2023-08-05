@@ -1,0 +1,43 @@
+
+#loginform{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    background: #7b13dd;
+    color: beige;
+    width: 70%;
+    height: 17rem;
+    position: relative;
+    margin: 10% auto;
+    padding: 2rem;
+}
+#loginform h3{
+    width: fit-content;
+    position: relative;
+    right: 15%;
+    font-size: 1.2rem;
+}
+#loginform input{
+    background: #000;
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 2rem;
+    width: 30%;
+    height: 25%;
+    margin: 0.3%;
+}
+@media (max-width: 524px){
+    #loginform input {
+        width: 79%;
+        height: 15%;
+    }
+         #loginform{
+            height: 14rem;
+         }
+}
+#loginform h1 {
+    align-self: flex-start;
+    font-size: 1.5rem;
+    margin: 0% 8% 3% 0%;
+}
